@@ -1,7 +1,9 @@
 /* eslint-disable */
 import React from 'react'
+import '@/app/(frontend)/styles.css'
 import { Header } from '../../../components/Header'
 import { Footer } from '../../../components/Footer'
+import { ThemeStyles } from '../../../components/ThemeStyles'
 
 export const metadata = {
   title: 'Avion Steel Group Inc | Structural Steel & Misc Metals',
@@ -14,9 +16,9 @@ export default async function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="en-US">
       <head>
+        <ThemeStyles />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700%7CSource+Sans+Pro:400,600,700" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <link rel="stylesheet" href="/css/custom.css" />
       </head>
       <body className="wp-singular page-template page-template-template-fullwidth page-template-template-fullwidth-php wp-embed-responsive wp-theme-induscity wp-child-theme-induscity-child full-content hide-topbar-mobile header-v3 wpb-js-composer js-comp-ver-8.5 vc_responsive">
         <div id="page" className="hfeed site">

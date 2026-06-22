@@ -55,7 +55,7 @@ export default function AboutPage() {
                                                 <div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element">
 
                                                     <figure class="wpb_wrapper vc_figure">
-                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_single_image-img lazyload" data-src="https://avionsteel.ca/wp-content/uploads/2025/10/EG_00207-scaled-370x360.jpg" width="370" height="360" alt="EG_00207" title="EG_00207"
+                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_single_image-img " width="370" height="360" alt="EG_00207" title="EG_00207"
                                                                 src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/360;"
                                                             /></div>
                                                     </figure>
@@ -278,7 +278,7 @@ export default function AboutPage() {
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element">
 
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="2560" height="1707" data-src="https://avionsteel.ca/wp-content/uploads/2025/10/EG_00211-scaled.jpg" class="vc_single_image-img attachment-full lazyload"
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" width="2560" height="1707" class="vc_single_image-img attachment-full "
                                                                                 alt="" title="EG_00211" data-srcset="https://avionsteel.ca/wp-content/uploads/2025/10/EG_00211-scaled.jpg 2560w, https://avionsteel.ca/wp-content/uploads/2025/10/EG_00211-300x200.jpg 300w, https://avionsteel.ca/wp-content/uploads/2025/10/EG_00211-1024x683.jpg 1024w, https://avionsteel.ca/wp-content/uploads/2025/10/EG_00211-768x512.jpg 768w, https://avionsteel.ca/wp-content/uploads/2025/10/EG_00211-1536x1024.jpg 1536w, https://avionsteel.ca/wp-content/uploads/2025/10/EG_00211-2048x1365.jpg 2048w"
                                                                                 data-sizes="(max-width: 2560px) 100vw, 2560px" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 2560px; --smush-placeholder-aspect-ratio: 2560/1707;"
                                                                             /></div>
@@ -339,11 +339,9 @@ export default function AboutPage() {
                                                                     <div class="box-wrapper">
                                                                         <h2 class="box-title"><span>Quality of Work</span></h2>
                                                                         <div class="desc">
-                                                                            </p>
-                                                                            <p data-start="345" data-end="748">We take pride in delivering precision-engineered steel structures built to meet and exceed client expectations. From material selection to fabrication and finishing, every stage
+                                                                            <p>We take pride in delivering precision-engineered steel structures built to meet and exceed client expectations. From material selection to fabrication and finishing, every stage
                                                                                 of our process is governed by strict quality control standards. Our skilled team ensures that every weld, cut, and assembly reflects our commitment to craftsmanship, durability,
-                                                                                and structural integrity.</p>
-                                                                            <p data-start="750" data-end="1176">
+                                                                                and structural integrity.<p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -356,11 +354,9 @@ export default function AboutPage() {
                                                                     <div class="box-wrapper">
                                                                         <h2 class="box-title"><span>Safety & Security</span></h2>
                                                                         <div class="desc">
-                                                                            </p>
-                                                                            <p data-start="1178" data-end="1573">Safety is at the core of everything we do. We maintain rigorous safety protocols and provide continuous training to all staff to ensure a secure work environment on and off-site.
+                                                                            <p>Safety is at the core of everything we do. We maintain rigorous safety protocols and provide continuous training to all staff to ensure a secure work environment on and off-site.
                                                                                 Our goal is to protect our employees, partners, and clients through strict compliance with industry standards and best practices, fostering a culture where safety is everyone’s
-                                                                                responsibility.</p>
-                                                                            <p data-start="1575" data-end="2013">
+                                                                                responsibility.<p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -374,11 +370,9 @@ export default function AboutPage() {
                                                                     <div class="box-wrapper">
                                                                         <h2 class="box-title"><span>Commitment to Deadlines</span></h2>
                                                                         <div class="desc">
-                                                                            </p>
-                                                                            <p data-start="750" data-end="1176">We understand that time is one of the most valuable assets in any project. Our team prioritizes efficient planning, communication, and workflow management to ensure every project
+                                                                            <p>We understand that time is one of the most valuable assets in any project. Our team prioritizes efficient planning, communication, and workflow management to ensure every project
                                                                                 is completed on schedule without compromising quality. We consistently deliver on time through proactive coordination and the use of advanced fabrication technologies, earning
-                                                                                our clients’ trust project after project.</p>
-                                                                            <p data-start="1178" data-end="1573">
+                                                                                our clients’ trust project after project.<p>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -391,8 +385,7 @@ export default function AboutPage() {
                                                                     <div class="box-wrapper">
                                                                         <h2 class="box-title"><span>Environmental Responsibility</span></h2>
                                                                         <div class="desc">
-                                                                            </p>
-                                                                            <p data-start="1575" data-end="2013">We are committed to minimizing our environmental footprint by implementing sustainable practices in all aspects of our operations. From recycling scrap materials to optimizing
+                                                                            <p>We are committed to minimizing our environmental footprint by implementing sustainable practices in all aspects of our operations. From recycling scrap materials to optimizing
                                                                                 energy use and reducing waste, we continuously seek ways to enhance environmental performance. Our approach balances innovation and responsibility, ensuring our projects contribute
                                                                                 positively to both our clients and the planet.</p>
                                                                             <p>

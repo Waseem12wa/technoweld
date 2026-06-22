@@ -29,7 +29,7 @@ export default function ProjectsPage() {
                                                 <div class="vc_empty_space" style="height: 32px"><span class="vc_empty_space_inner"></span></div>
                                                 <div class="wpb_text_column wpb_content_element">
                                                     <div class="wpb_wrapper">
-                                                        <p data-start="164" data-end="726">At Avion Steel, every project represents our dedication to precision, strength, and craftsmanship. We take pride in being a trusted partner to leading contractors, developers, and institutions across
+                                                        <p>At Avion Steel, every project represents our dedication to precision, strength, and craftsmanship. We take pride in being a trusted partner to leading contractors, developers, and institutions across
                                                             Ontario and beyond—delivering structural steel solutions that stand the test of time. Our portfolio spans commercial buildings, educational institutions, healthcare facilities, data centres,
                                                             and major infrastructure projects. With a focus on quality, safety, and innovation, Avion Steel continues to build the framework for success in every project we undertake.</p>
 

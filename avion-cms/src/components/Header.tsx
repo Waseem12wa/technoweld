@@ -22,7 +22,7 @@ export const Header: React.FC = () => {
             <div className="row menu-row">
               <div className="site-logo col-md-9 col-sm-9 col-xs-9">
                 <a href="/" className="logo">
-                  <img src="https://avionsteel.ca/api/media/file/Avion-Steel-Logo.webp" alt="Avion Steel Group Inc" className="logo" />
+                  <img src="/avion-logo-generated.png" alt="Avion Steel Group Inc" className="logo" style={{ maxHeight: '80px', objectFit: 'contain' }} />
                 </a>
                 <p className="site-title"><a href="/" rel="home">Avion Steel Group Inc</a></p>
                 <h2 className="site-description">Structural Steel &amp; Misc Metals</h2>

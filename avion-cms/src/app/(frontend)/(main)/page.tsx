@@ -9,8 +9,9 @@ export default function HomePage() {
                 <div class="row">
 
                     <div class="wpb-content-wrapper">
-                        <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" data-vc-parallax-image="https://www.youtube.com/watch?v=ixHwqVWRykI" data-vc-video-bg="https://www.youtube.com/watch?v=ixHwqVWRykI" class="vc_row wpb_row vc_row-fluid vc_custom_1761427839445 vc_row-has-fill vc_row-no-padding vc_row-o-full-height vc_row-o-columns-top vc_row-o-equal-height vc_row-o-content-top vc_row-flex vc_video-bg-container un-row-full-width">
-                            <div class="container-fluid">
+                        <div class="vc_row wpb_row vc_row-fluid vc_custom_1761427839445 vc_row-has-fill vc_row-no-padding vc_row-o-full-height vc_row-o-columns-top vc_row-o-equal-height vc_row-o-content-top vc_row-flex vc_video-bg-container un-row-full-width" style="position: relative; overflow: hidden; min-height: 80vh; width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%); background: #000;">
+                            <iframe style="position: absolute; top: 50%; left: 50%; width: 100vw; height: 56.25vw; min-height: 100vh; min-width: 177.77vh; transform: translate(-50%, -50%); z-index: 0; pointer-events: none;" src="https://www.youtube.com/embed/lRD-rbIcwyk?autoplay=1&mute=1&controls=0&loop=1&playlist=lRD-rbIcwyk&showinfo=0&rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <div class="container-fluid" style="position: relative; z-index: 1; width: 100%;">
                                 <div class="row">
                                     <div class="wpb_column vc_column_container vc_col-sm-12">
                                         <div class="vc_column-inner">
@@ -21,7 +22,7 @@ export default function HomePage() {
                             </div>
                         </div>
                         <div class="vc_row-full-width vc_clearfix"></div>
-                        <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid mf-relative no-margin vc_custom_1761605031828 vc_row-has-fill vc_row-o-content-middle vc_row-flex un-row-full-width">
+                        <div style="width: 100vw; margin-left: calc(-50vw + 50%); margin-right: calc(-50vw + 50%);" class="vc_row wpb_row vc_row-fluid mf-relative no-margin vc_custom_1761605031828 vc_row-has-fill vc_row-o-content-middle vc_row-flex un-row-full-width">
                             <div class="container-fluid">
                                 <div class="row">
                                     <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-6">
@@ -90,7 +91,7 @@ export default function HomePage() {
                                                                 <div class="wpb_single_image wpb_content_element vc_align_left wpb_content_element">
 
                                                                     <figure class="wpb_wrapper vc_figure">
-                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_single_image-img lazyload" data-src="https://avionsteel.ca/api/media/file/steel-erection-hero.webp" width="370" height="273" alt="Avion Steel Group Inc"
+                                                                        <div class="vc_single_image-wrapper   vc_box_border_grey"><img decoding="async" class="vc_single_image-img " width="370" height="273" alt="Avion Steel Group Inc"
                                                                                 title="Avion Steel Fabrication" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/273;"
                                                                             /></div>
                                                                     </figure>
@@ -167,7 +168,7 @@ export default function HomePage() {
                                         <div class="vc_column-inner">
                                             <div class="wpb_wrapper">
                                                 <div class="mf-services-2 icon_type-fontawesome style-1 ">
-                                                    <div class="service-thumbnail"><a href="/services/"><span class="service-icon"><i class="fa fa-link"></i></span><img decoding="async" data-src="https://avionsteel.ca/wp-content/uploads/2025/10/EG_00354-scaled-370x200.jpg" width="370" height="200" alt="EG_00354" title="EG_00354" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/200;" /><span class="mf-icon"><i class="fa fa-solid fa-ruler-combined"></i></span></a></div>
+                                                    <div class="service-thumbnail"><a href="/services/"><span class="service-icon"><i class="fa fa-link"></i></span><img decoding="async" width="370" height="200" alt="EG_00354" title="EG_00354" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/200;" /><span class="mf-icon"><i class="fa fa-solid fa-ruler-combined"></i></span></a></div>
                                                     <div
                                                         class="service-summary">
                                                         <h4><a href="/services/" title="Read More">Structural Steel Design</a></h4>
@@ -186,7 +187,7 @@ export default function HomePage() {
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
                                             <div class="mf-services-2 icon_type-fontawesome style-1 ">
-                                                <div class="service-thumbnail"><a href="/services/"><span class="service-icon"><i class="fa fa-link"></i></span><img decoding="async" data-src="https://avionsteel.ca/wp-content/uploads/2025/10/EG_00222-scaled-370x200.jpg" width="370" height="200" alt="EG_00222" title="EG_00222" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/200;" /><span class="mf-icon"><i class="fa fa-solid fa-hammer"></i></span></a></div>
+                                                <div class="service-thumbnail"><a href="/services/"><span class="service-icon"><i class="fa fa-link"></i></span><img decoding="async" width="370" height="200" alt="EG_00222" title="EG_00222" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/200;" /><span class="mf-icon"><i class="fa fa-solid fa-hammer"></i></span></a></div>
                                                 <div
                                                     class="service-summary">
                                                     <h4><a href="/services/" title="Read More" target="_blank">Structural Steel Fabrication</a></h4>
@@ -204,7 +205,7 @@ export default function HomePage() {
                                 <div class="vc_column-inner">
                                     <div class="wpb_wrapper">
                                         <div class="mf-services-2 icon_type-fontawesome style-1 ">
-                                            <div class="service-thumbnail"><a href="/services/"><span class="service-icon"><i class="fa fa-link"></i></span><img decoding="async" data-src="https://avionsteel.ca/wp-content/uploads/2025/11/The-Hill-On-Bayview-370x200.webp" width="370" height="200" alt="The Hill On Bayview" title="The Hill On Bayview" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="lazyload" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/200;" /><span class="mf-icon"><i class="fa fa-solid fa-screwdriver-wrench"></i></span></a></div>
+                                            <div class="service-thumbnail"><a href="/services/"><span class="service-icon"><i class="fa fa-link"></i></span><img decoding="async" width="370" height="200" alt="The Hill On Bayview" title="The Hill On Bayview" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMSIgaGVpZ2h0PSIxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" class="" style="--smush-placeholder-width: 370px; --smush-placeholder-aspect-ratio: 370/200;" /><span class="mf-icon"><i class="fa fa-solid fa-screwdriver-wrench"></i></span></a></div>
                                             <div
                                                 class="service-summary">
                                                 <h4><a href="/services/" title="Read More" target="_blank">Structural Steel Installation</a></h4>
