@@ -1,4 +1,4 @@
-ÿþ# Avion Steel Group Inc. - CMS Website
+# Avion Steel Group Inc. - CMS Website
 
 This repository contains the complete source code for the modern, high-performance website of Avion Steel Group Inc. It is built using the latest web technologies including Next.js App Router and Payload CMS 3.0.
 
@@ -59,7 +59,7 @@ npm run dev
 ### 6. View the Site
 Once the server has compiled successfully, open your browser:
 - **Main Website:** [http://localhost:3000](http://localhost:3000)
-- **Admin Dashboard:** [http://localhost:3000/admin](http://localhost:3000/admin(To manage text, images, and pages)
+- **Admin Dashboard:** [http://localhost:3000/admin](http://localhost:3000/admin) (To manage text, images, and pages)
 
 ---
 
