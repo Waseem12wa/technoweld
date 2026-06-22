@@ -1,5 +1,5 @@
-/**
- * TechnoWeld LTD - Custom Interactive Scripts
+﻿/**
+ * Avion Steel Group Inc - Custom Interactive Scripts
  * Features: Image Lightbox with Keyboard Nav, Dynamic Category Filtering
  */
 
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
             galleryItems.forEach((item, index) => {
                 const src = item.getAttribute('data-src');
                 const img = item.querySelector('img');
-                const caption = img ? img.getAttribute('alt') : 'TechnoWeld Gallery';
+                const caption = img ? img.getAttribute('alt') : 'Avion Steel Gallery';
                 currentImages.push({ src, caption, element: item });
                 
                 // Remove previous event listeners by cloning or direct reference
@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const img = item.querySelector('.custom-project-image');
                 const src = img ? img.getAttribute('src') : '';
                 const title = item.querySelector('.custom-project-title');
-                const caption = title ? title.textContent.trim() : 'TechnoWeld Project';
+                const caption = title ? title.textContent.trim() : 'Avion Steel Project';
                 
                 currentImages.push({ src, caption });
 

@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechnoWeld LTD - Structural Steel & Misc Metals Portal</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Hind:wght@400;600;700&display=swap" rel="stylesheet">
-    
-    <!-- FontAwesome for fallback -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+import React from 'react'
+import Link from 'next/link'
 
-    <style>
+export default function SplashPage() {
+  return (
+    <>
+      <style dangerouslySetInnerHTML={{ __html: `
         :root {
             --accent-color: #ffb400;
             --accent-glow: rgba(255, 180, 0, 0.25);
@@ -46,7 +37,6 @@
             background-attachment: fixed;
         }
 
-        /* Diagonal geometric decoration lines (representing steel girders) */
         .grid-overlay {
             position: fixed;
             top: 0;
@@ -131,7 +121,6 @@
             width: 100%;
         }
 
-        /* Portal Hub Grid */
         .portal-grid {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -231,7 +220,6 @@
             color: var(--accent-color);
         }
 
-        /* Hover States */
         .portal-card:hover {
             transform: translateY(-8px);
             border-color: var(--accent-color);
@@ -263,7 +251,6 @@
             transform: translateX(6px);
         }
 
-        /* Primary Call To Action */
         .enter-btn {
             background: linear-gradient(135deg, var(--accent-color) 0%, #e59a00 100%);
             color: #000000;
@@ -311,7 +298,6 @@
             font-family: 'Hind', sans-serif;
         }
 
-        /* Responsive Layout */
         @media (max-width: 992px) {
             .portal-grid {
                 grid-template-columns: repeat(2, 1fr);
@@ -345,7 +331,6 @@
             }
         }
 
-        /* Animations */
         @keyframes fadeInDown {
             from {
                 opacity: 0;
@@ -361,131 +346,121 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
-    </style>
-</head>
-<body>
+      `}} />
 
-    <div class="grid-overlay"></div>
+      <div className="grid-overlay"></div>
 
-    <header>
-        <div class="logo-container">
-            <!-- Utilizing the logo already shipped inside the web assets -->
-            <img class="logo-img" src="https://technoweld.itcontrol.work/wp-content/uploads/2025/10/logo.png" alt="TechnoWeld LTD Logo">
+      <header>
+        <div className="logo-container">
+          <img className="logo-img" src="https://avionsteel.ca/api/media/file/Avion-Steel-Logo.webp" alt="Avion Steel Group Inc Logo" />
         </div>
-        <h1 class="brand-title">TechnoWeld LTD</h1>
-        <p class="brand-subtitle">Structural Steel &amp; Miscellaneous Metals</p>
-    </header>
+        <h1 className="brand-title">Avion Steel Group Inc</h1>
+        <p className="brand-subtitle">Structural Steel Fabrication &amp; Erection</p>
+      </header>
 
-    <main>
-        <!-- The Core Navigation Portal Hub -->
-        <div class="portal-grid">
-            
-            <!-- Card 1: Home -->
-            <a href="home.html" class="portal-card">
-                <div>
-                    <div class="portal-card-header">
-                        <div class="portal-icon">
-                            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
-                        </div>
-                        <h2 class="portal-title">Home Page</h2>
-                    </div>
-                    <p class="portal-desc">Welcome to TechnoWeld LTD. Explore our core metalwork values, capabilities, certifications, and our mission statement.</p>
+      <main>
+        <div className="portal-grid">
+          
+          <Link href="/home" className="portal-card">
+            <div>
+              <div className="portal-card-header">
+                <div className="portal-icon">
+                  <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
                 </div>
-                <div class="portal-action">
-                    <span>Enter Home</span> <i class="fa fa-chevron-right"></i>
-                </div>
-            </a>
+                <h2 className="portal-title">Home Page</h2>
+              </div>
+              <p className="portal-desc">Welcome to Avion Steel Group Inc. Built to support steel scopes with clarity, precision, and accountability across every phase.</p>
+            </div>
+            <div className="portal-action">
+              <span>Enter Home</span> <i className="fa fa-chevron-right"></i>
+            </div>
+          </Link>
 
-            <!-- Card 2: About Us -->
-            <a href="about.html" class="portal-card">
-                <div>
-                    <div class="portal-card-header">
-                        <div class="portal-icon">
-                            <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                        </div>
-                        <h2 class="portal-title">About Us</h2>
-                    </div>
-                    <p class="portal-desc">Meet our expert team of steel fabricators, discover our history, facilities, and dedication to visual and structural precision.</p>
+          <Link href="/about-us" className="portal-card">
+            <div>
+              <div className="portal-card-header">
+                <div className="portal-icon">
+                  <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
                 </div>
-                <div class="portal-action">
-                    <span>Meet the Team</span> <i class="fa fa-chevron-right"></i>
-                </div>
-            </a>
+                <h2 className="portal-title">About Us</h2>
+              </div>
+              <p className="portal-desc">Spun off from Avion Construction Group to focus exclusively on steel. Discover our story, values, and commitment to project success.</p>
+            </div>
+            <div className="portal-action">
+              <span>Meet the Team</span> <i className="fa fa-chevron-right"></i>
+            </div>
+          </Link>
 
-            <!-- Card 3: Services -->
-            <a href="services.html" class="portal-card">
-                <div>
-                    <div class="portal-card-header">
-                        <div class="portal-icon">
-                            <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.3C.5 6.7.9 9.8 2.9 11.8c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.6z"/></svg>
-                        </div>
-                        <h2 class="portal-title">Our Services</h2>
-                    </div>
-                    <p class="portal-desc">Explore our full suite of professional services including structural steel supply, custom fabrication, and high-quality shop welding.</p>
+          <Link href="/services" className="portal-card">
+            <div>
+              <div className="portal-card-header">
+                <div className="portal-icon">
+                  <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.3C.5 6.7.9 9.8 2.9 11.8c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.6z"/></svg>
                 </div>
-                <div class="portal-action">
-                    <span>Our Capabilities</span> <i class="fa fa-chevron-right"></i>
-                </div>
-            </a>
+                <h2 className="portal-title">Our Services</h2>
+              </div>
+              <p className="portal-desc">From design-assist and steel coordination to fabrication, erection, miscellaneous metals, and pre-engineered metal buildings.</p>
+            </div>
+            <div className="portal-action">
+              <span>Our Capabilities</span> <i className="fa fa-chevron-right"></i>
+            </div>
+          </Link>
 
-            <!-- Card 4: Projects -->
-            <a href="projects.html" class="portal-card">
-                <div>
-                    <div class="portal-card-header">
-                        <div class="portal-icon">
-                            <svg viewBox="0 0 24 24"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
-                        </div>
-                        <h2 class="portal-title">Our Projects</h2>
-                    </div>
-                    <p class="portal-desc">Browse our portfolio of completed projects including commercial, industrial expansions, high-rise buildings, and hotels.</p>
+          <Link href="/projects" className="portal-card">
+            <div>
+              <div className="portal-card-header">
+                <div className="portal-icon">
+                  <svg viewBox="0 0 24 24"><path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
                 </div>
-                <div class="portal-action">
-                    <span>View Projects</span> <i class="fa fa-chevron-right"></i>
-                </div>
-            </a>
+                <h2 className="portal-title">Our Projects</h2>
+              </div>
+              <p className="portal-desc">Browse our portfolio of completed projects spanning commercial, industrial, institutional, and retrofit sectors across Ontario.</p>
+            </div>
+            <div className="portal-action">
+              <span>View Projects</span> <i className="fa fa-chevron-right"></i>
+            </div>
+          </Link>
 
-            <!-- Card 5: Gallery -->
-            <a href="gallery.html" class="portal-card">
-                <div>
-                    <div class="portal-card-header">
-                        <div class="portal-icon">
-                            <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
-                        </div>
-                        <h2 class="portal-title">Gallery Showcase</h2>
-                    </div>
-                    <p class="portal-desc">Take an immersive look at our shop processes, structural details, steel frames, and on-site construction works.</p>
+          <Link href="/gallery" className="portal-card">
+            <div>
+              <div className="portal-card-header">
+                <div className="portal-icon">
+                  <svg viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
                 </div>
-                <div class="portal-action">
-                    <span>Open Gallery</span> <i class="fa fa-chevron-right"></i>
-                </div>
-            </a>
+                <h2 className="portal-title">Gallery Showcase</h2>
+              </div>
+              <p className="portal-desc">Take an immersive look at our fabrication shop, structural steel erection, on-site construction, and finished installations.</p>
+            </div>
+            <div className="portal-action">
+              <span>Open Gallery</span> <i className="fa fa-chevron-right"></i>
+            </div>
+          </Link>
 
-            <!-- Card 6: Contact -->
-            <a href="contact.html" class="portal-card">
-                <div>
-                    <div class="portal-card-header">
-                        <div class="portal-icon">
-                            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-                        </div>
-                        <h2 class="portal-title">Contact Us</h2>
-                    </div>
-                    <p class="portal-desc">Get in touch with our team for pricing, quotes, custom consultation, or structural steel advice. We are here to help.</p>
+          <Link href="/contact" className="portal-card">
+            <div>
+              <div className="portal-card-header">
+                <div className="portal-icon">
+                  <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
                 </div>
-                <div class="portal-action">
-                    <span>Get in Touch</span> <i class="fa fa-chevron-right"></i>
-                </div>
-            </a>
+                <h2 className="portal-title">Contact Us</h2>
+              </div>
+              <p className="portal-desc">Need a steel partner for an upcoming project? Reach out for estimates, coordination, or to discuss your steel scope requirements.</p>
+            </div>
+            <div className="portal-action">
+              <span>Get in Touch</span> <i className="fa fa-chevron-right"></i>
+            </div>
+          </Link>
 
         </div>
 
-        <a href="home.html" class="enter-btn">
-            Enter Full Website <i class="fa fa-arrow-right"></i>
-        </a>
-    </main>
+        <Link href="/home" className="enter-btn">
+          Enter Full Website <i className="fa fa-arrow-right"></i>
+        </Link>
+      </main>
 
-    <footer>
-        &copy; 2026 TechnoWeld LTD. All rights reserved. | 955 Winston Churchill Blvd, Mississauga, ON-L5J 4P2 | Office: 905-465-4427
-    </footer>
-
-</body>
-</html>
+      <footer>
+        &copy; 2026 Avion Steel Group Inc. All rights reserved. | Ontario, Canada
+      </footer>
+    </>
+  )
+}
